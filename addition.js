@@ -13,3 +13,12 @@ function totalcount() {
     $s("PAGEITEM3", parseFloat(n_total, 10));
 
 }
+
+// After that you have to create a Dynamic Action
+
+Event: Lose Focus
+item(s): that item
+Action: execute JS Function
+code: function name
+
+Then just run
