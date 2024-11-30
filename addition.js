@@ -22,3 +22,13 @@ Action: execute JS Function
 code: function name
 
 Then just run
+
+
+////// ///////////// //////
+// When You have Interactive Grid 
+
+Step 1:  Create Dynamic Action in column of Grid 
+Select columns to add or multiple and then add affected column
+
+nvl(:COLUMN1,0) * NVL(:COLUMN2 ,0)
+nvl(:QUANTITY,0) * NVL(:RATE,0)
