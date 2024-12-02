@@ -18,3 +18,13 @@ if inserting then
   END IF; 
 end;
 /
+
+
+// Sequence
+
+-- Create the sequence
+CREATE SEQUENCE AB_APP_MENU_REGISTRATION_SEQ
+   START WITH 1
+   INCREMENT BY 1
+   NOCACHE
+   NOCYCLE;
